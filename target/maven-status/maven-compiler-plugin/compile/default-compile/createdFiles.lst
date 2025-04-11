@@ -1,3 +1,8 @@
+gui\FormSignin$1.class
 demo\Main.class
-model\User.class
+gui\FormSignin$3.class
+gui\FormSignin.class
 business\security\AuthenticationService.class
+gui\FormSignin$4.class
+model\User.class
+gui\FormSignin$2.class
