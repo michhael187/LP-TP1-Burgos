@@ -4,7 +4,7 @@
  */
 package demo;
 
-import business.security.AuthenticationService;
+//import business.security.AuthenticationService;
 
 /**
  *
@@ -16,7 +16,8 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        AuthenticationService prueba = new AuthenticationService();
+        new gui.FormSignin().setVisible(true);
+        /**AuthenticationService prueba = new AuthenticationService();
         long userId = prueba.signin("admin", "#123456$");
         if(userId!=-1)
         {
@@ -25,7 +26,7 @@ public class Main {
         else
         {
             System.out.println("Credenciales incorrectas");
-        }
+        } */
     }
     
 }
